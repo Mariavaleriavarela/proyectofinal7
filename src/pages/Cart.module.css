@@ -1,0 +1,42 @@
+.container {
+    display: flex; /* Usamos flexbox para alinear el contenido */
+    flex-direction: column; /* Alineamos los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    min-height: calc(100vh - 50px); /* Ajusta el valor según tus necesidades */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados en todo el contenedor */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+}
+
+.title {
+    font-size: 2.5rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Negrita */
+    color: #2d3748; /* Color gris oscuro */
+    margin-bottom: 1.5rem; /* Espaciado inferior */
+    text-align: center; /* Alineación centrada */
+}
+
+.checkoutButton {
+    background-color: #fcc0c0; /* Color de fondo azul */
+    color: #ffffff; /* Texto blanco */
+    padding: 0.75rem 1.5rem; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s, transform 0.2s; /* Efecto de transición */
+    font-size: 1.25rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Negrita */
+    margin-top: 1rem; /* Espaciado superior para el botón */
+}
+
+.checkoutButton:hover {
+    background-color: #8a4776; /* Color de fondo más oscuro al pasar el cursor */
+    transform: translateY(-2px); /* Eleva el botón al pasar el cursor */
+}
+
+.checkoutButton:active {
+    transform: translateY(0); /* Vuelve a la posición original al hacer clic */
+}
+

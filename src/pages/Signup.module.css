@@ -1,0 +1,59 @@
+/* signup.module.css */
+.signup {
+    max-width: 1200px; /* Coincide con el contenedor de Home */
+    margin: 0 auto; /* Centra el contenido */
+    padding: 2rem; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    background-color: #fff; /* Color de fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(240, 231, 231, 0.1);
+    min-width: calc(100vh - 60px);
+}
+
+.title {
+    font-size: 3rem; /* Tamaño del título */
+    color: #424242; /* Color del texto */
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+.label {
+    display: block; /* Hace que el texto se comporte como bloque */
+    text-align: left; /* Alinear a la izquierda */
+    margin-bottom: 0.5rem; /* Espacio inferior */
+    font-weight: bold; /* Negrita para las etiquetas */
+}
+
+.inputField {
+    margin: 1rem 0; /* Espacio vertical entre campos */
+    padding: 1rem; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo */
+    box-sizing: border-box; /* Incluye padding en el ancho */
+}
+
+.inputGroup {
+    margin-bottom: 1.5rem; /* Espacio entre grupos de entrada */
+}
+
+.button {
+    background-color: #be8bb3; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 1rem; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo puntero */
+    width: 100%; /* Ancho completo */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.button:hover {
+    background-color: #f7a7f3; /* Color del botón al pasar el mouse */
+}
+
+.error {
+    color: red; /* Color para el mensaje de error */
+    margin-bottom: 1rem; /* Espacio inferior */
+}
+
+

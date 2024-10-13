@@ -1,0 +1,64 @@
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 64px); /* Ajusta según la altura de tu navbar */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    padding: 2rem; /* Espaciado interno */
+  }
+  
+  .card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo de la tarjeta */
+    text-align: center; /* Centra el texto */
+  }
+  
+  .profileImage {
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Alto de la imagen */
+    border-radius: 50%; /* Hacer la imagen circular */
+    margin-bottom: 1rem; /* Espacio inferior */
+  }
+  
+  .title {
+    font-size: 2rem; /* Tamaño de fuente grande */
+    font-weight: bold; /* Negrita */
+    color: #a0a6b1; /* Color gris oscuro */
+    margin-bottom: 1rem; /* Espaciado inferior */
+  }
+  
+  .description {
+    font-size: 1rem; /* Tamaño de fuente normal */
+    color: #4a5568; /* Color gris */
+    margin-bottom: 1.5rem; /* Espaciado inferior */
+  }
+  
+  .info {
+    margin: 1.5rem 0; /* Espaciado superior e inferior */
+  }
+  
+  .label {
+    font-weight: medium; /* Negrita */
+  }
+  
+  .editButton {
+    width: 100%;
+    background-color: #4f46e5; /* Color del botón */
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  
+  .editButton:hover {
+    background-color: #4338ca; /* Color del botón al pasar el ratón */
+  }
+  
+  
+  
+  
+  

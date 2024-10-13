@@ -1,0 +1,42 @@
+.home {
+    display: flex; /* Usamos flexbox para centrar contenido */
+    flex-direction: column; /* Alineamos los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    min-height: calc(100vh - px);
+    background-color: #f9f9f9; /* Color de fondo claro */
+    padding: 2rem; /* Espaciado interno */
+
+  }
+  
+  .title {
+    font-size: 3rem; /* Tamaño de fuente grande */
+    font-weight: bold; /* Negrita */
+    color: #a0a6b1; /* Color gris oscuro */
+    margin-bottom: 1.5rem 0; /* Espaciado inferior */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  .description {
+    font-size: 1.5rem; /* Tamaño de fuente mediano */
+    color: #4a5568; /* Color gris */
+    text-align: center; /* Alineación centrada */
+    max-width: 800px; /* Ancho máximo del texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-bottom: 2rem; 
+  }
+  
+  .imageContainer {
+    display: flex; /* Usa flexbox para alinear imágenes */
+    justify-content: center; /* Centra las imágenes */
+    gap: 2rem; /* Espacio entre imágenes */
+    margin-top: 2rem; /* Espaciado superior */
+  }
+  
+  .homeImage {
+    width: 100%; /* O ajusta el tamaño según tu preferencia */
+    max-width: 300px; /* Ancho máximo de las imágenes */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  

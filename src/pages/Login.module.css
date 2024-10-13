@@ -1,0 +1,56 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); /* Centra verticalmente y ajusta a la altura de la pantalla */
+    background-color: #f9f9f9; /* Mismo fondo claro que el Home */
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 3rem; /* Tamaño grande */
+    font-weight: bold;
+    color: #a0a6b1; /* Gris oscuro igual al Home */
+    margin-bottom: 1.5rem; /* Espaciado inferior */
+    text-align: center;
+  }
+  
+  .inputField {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d5db; /* Gris claro en el borde */
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #4a5568; /* Texto en gris oscuro */
+    background-color: #fff; /* Fondo blanco para los campos */
+  }
+  
+  .button {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    background-color: #4a5568; /* Botón gris oscuro */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .button:hover {
+    background-color: #2d3748; /* Botón gris más oscuro al pasar el mouse */
+  }
+  
+  .errorMessage {
+    color: red; /* Mensaje de error en rojo */
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  

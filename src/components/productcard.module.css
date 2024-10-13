@@ -1,0 +1,44 @@
+.card {
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px; /* Espacio interno */
+    background-color: white; /* Color de fondo blanco */
+    text-align: center; /* Centrar el texto */
+    transition: box-shadow 0.3s; /* Efecto de sombra al pasar el mouse */
+    max-width: 300px; /* Ancho máximo de la tarjeta */
+    margin: 0 auto;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra al pasar el mouse */
+  }
+  
+  .imagen {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    max-width: 300px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    object-fit: cover; /* Asegurar que la imagen se ajuste sin deformarse */
+    margin-bottom: 12px; /* Espacio debajo de la imagen */
+  }
+  
+  .title {
+    font-size: 1.5rem; /* Tamaño de fuente del título */
+    color: #333; /* Color del título */
+    margin-bottom: 0.5rem; /* Espaciado debajo del título */
+  }
+  
+  .description {
+    font-size: 0.875rem; /* Tamaño de fuente de la descripción */
+    color: #666; /* Color de la descripción */
+    margin-bottom: 0.5rem; /* Espaciado debajo de la descripción */
+  }
+  
+  .price {
+    font-size: 1rem; /* Tamaño de fuente del precio */
+    font-weight: bold; /* Hacer el precio más destacado */
+    margin-bottom: 1rem; /* Espaciado debajo del precio */
+  }
+  
+.button {
+    color: rgb(60, 85, 48);
+}

@@ -1,0 +1,37 @@
+.productCard {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #e2e8f0; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 1.5rem; /* Espaciado interno */
+    text-align: center; /* Alineación centrada */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 1rem; /* Espaciado entre productos */
+    transition: transform 0.3s; /* Transición para efecto de hover */
+}
+
+.productCard:hover {
+    transform: translateY(-5px); /* Efecto de elevar el producto al pasar el cursor */
+}
+
+.productImage {
+    width: 100%; /* Ancho completo */
+    max-width: 200px; /* Ancho máximo de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.productName {
+    font-size: 1.5rem; /* Tamaño de fuente para el nombre */
+    margin: 0.5rem 0; /* Espaciado superior e inferior */
+}
+
+.productPrice {
+    font-size: 1.2rem; /* Tamaño de fuente para el precio */
+    color: #4a5568; /* Color gris */
+    margin: 0.5rem 0; /* Espaciado superior e inferior */
+}
+
+.productDescription {
+    font-size: 1rem; /* Tamaño de fuente para la descripción */
+    color: #718096; /* Color gris claro */
+}

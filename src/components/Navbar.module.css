@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #fcc0c0; /* Color gris claro */
+    padding: 1rem; /* Espaciado */
+  }
+  
+  .container {
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrando el contenedor */
+    display: flex; /* Flexbox para la disposición */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Centrado vertical */
+  }
+  
+  .logo {
+    font-size: 1.25rem; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    text-decoration: none; /* Sin subrayado */
+    color: #000000; /* Color gris oscuro */
+  }
+
+  
+  .links {
+    display: flex; /* Flexbox para los enlaces */
+    gap: 1rem; /* Espacio entre los enlaces */
+  }
+  
+  .link {
+    color: #000000; /* Color gris */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  .link:hover {
+    color: #2d3748; /* Color gris oscuro en hover */
+  }
+  
